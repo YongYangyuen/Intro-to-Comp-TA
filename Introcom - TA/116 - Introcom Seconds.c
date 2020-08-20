@@ -6,7 +6,7 @@ int main() {
     
     scanf("%d", &sec);
     
-    hr = sec / 60 / 60 % 60;
+    hr = sec / 60 / 60;
     min = sec / 60 % 60;
     sec = sec % 60;
     
